@@ -1,0 +1,15 @@
+{
+    "name": "amazon-marketplace/orders",
+    "type": "library",
+    "description": "SDK Amazon Marketplace for PHP",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AmazonMarketplace\\": "src/"
+        },
+        "files": [
+            "src/functions_include.php"
+        ]
+    },
+    "require": {}
+}
